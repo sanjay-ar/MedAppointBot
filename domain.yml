@@ -1,0 +1,263 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - day
+  - head_symptom
+  - head_whole
+  - head_sides
+  - head_crown
+  - head_eyes
+  - flu_symptom
+  - vision_symptom
+  - stomach_symptom
+  - bot_challenge
+  - back_pain_symptom
+  - fever_symptom
+  - cough_symptom
+  - sore_throat_symptom
+  - fatigue_symptom
+  - skin_rash_symptom
+  - anxiety_symptom
+  - depression_symptom
+  - allergy_symptom
+  - hypertension_symptom
+  - joint_pain_symptom
+  - insomnia_symptom
+  - shortness_of_breath_symptom
+  - nausea_symptom
+  - diarrhea_symptom
+  - migraine_symptom
+  - hearing_loss_symptom
+  - heart_burn_symptom
+  - rash_symptom
+  - cold_symptom
+  - Diarrhea_symptom
+  - sorethroat_symptom
+  - earpain_symptom
+  - bookstmch
+  - bookheart
+  - bookrash
+  - bookfever
+  - bookcold
+  - bookdiarr
+  - bookthroat
+  - bookear
+  - day1
+  - day2
+  - day3
+  - day4
+  - day5
+  - day6
+  - day7
+  - day8
+  - deny1
+  - deny2
+  - deny3
+  - deny4
+  - deny5
+  - deny6
+  - deny7
+  - deny8
+
+
+responses:
+  utter_greet:
+  - text: "Hi! How may I help you? Are you facing any  problems,Say me?..."
+
+  utter_did_that_help:
+  - text: "I hope that this helps you.\n\ If you wish to continue please select any other problem...\n\ Else you can exit"
+  utter_happy:
+  - text: "Great, carry on!"
+  utter_goodbye:
+  - text: "\n\ Bye"
+  utter_day1:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day1
+      - title: Less than 24 hrs
+        payload: /day1
+  utter_day2:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day2
+      - title: Less than 24 hrs
+        payload: /day2
+  utter_day3:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day3
+      - title: Less than 24 hrs
+        payload: /day3
+  utter_day4:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day4
+      - title: Less than 24 hrs
+        payload: /day4
+  utter_day5:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day5
+      - title: Less than 24 hrs
+        payload: /day5
+  utter_day6:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day6
+      - title: Less than 24 hrs
+        payload: /day6
+  utter_day7:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day7
+      - title: Less than 24 hrs
+        payload: /day
+  utter_day8:
+    - text: "Since when are you experiencing the pain?"
+      buttons:
+      - title: More than 24 hrs
+        payload: /day8
+      - title: Less than 24 hrs
+        payload: /day8
+    
+  utter_stomach_types:
+    - text: "Are you facing any of the following issues: Bloating, Constipation, Gas?"
+      buttons:
+      - title: "Yes"
+        payload: /deny1
+      - title: "No"
+        payload: /deny1
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_link1:
+  - text: "Please click this link to book an appointment (http://127.0.0.1/technoverse/patient/schedule.php?id=15)."
+  utter_link2:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=16)."
+  utter_link3:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=12)."
+  utter_link4:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=57)."
+  utter_link5:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=57)."
+  utter_link6:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=57)."
+  utter_link7:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=11)."
+  utter_link8:
+  - text: "Please click this link to book an appointment (http://localhost/technoverse/patient/schedule.php?id=11)."
+  utter_heart_burn_symptom:
+    - text: "Are you experiencing discomfort due to heat exposure? "
+      buttons:
+      - title: "Yes"
+        payload: /deny2
+      - title: "No"
+        payload: /deny2
+  utter_poison_response_stomach:
+  - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+    buttons:
+      - title: book now
+        payload: /bookstmch
+  utter_heart_burn_remedies:
+  - text: "1. Move to a cooler place. 2. Stay hydrated with water or electrolyte drinks. 3. Use fans or air conditioning to cool down."
+  utter_rash_symptom:
+   - text: "Are you experiencing a rash or skin irritation? "
+     buttons:
+      - title: "Yes"
+        payload: /deny3
+      - title: "No"
+        payload: /deny3
+  utter_rash_remedies:
+  - text: "1. Avoid scratching the rash. 2. Apply a mild, fragrance-free moisturizer. 3. If it worsens, consult a dermatologist."
+  utter_fever_symptom:
+   - text: "Are you facing any issue other than fever? "
+     buttons:
+      - title: "Yes"
+        payload: /deny4
+      - title: "No"
+        payload: /deny4
+  utter_fever_remedies:
+  - text: "If you have a fever, here are some remedies you can try:\n1. Get plenty of rest and stay hydrated.\n2. Take over-the-counter fever-reducing medication like acetaminophen or ibuprofen, following the recommended dosage.\n3. Sponge yourself with lukewarm water to help lower your body temperature.\n4. If the fever persists or worsens, consult a healthcare professional."
+  utter_poison_response_heart:
+   - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+     buttons:
+     - title: book now
+       payload: /bookheart
+  utter_poison_response_fever:
+   - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+     buttons:
+      - title: book now
+        payload: /bookfever
+  utter_poison_response_rash:
+   - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+     buttons:
+      - title: book now
+        payload: /bookrash
+  utter_cold_symptom:
+   - text: "Are you currently experiencing symptoms of a cold?"
+     buttons:
+      - title: "Yes"
+        payload: /deny5
+      - title: "No"
+        payload: /deny5
+  utter_cold_remedies:
+  - text: "If you have a cold, here are some remedies you can try:\n1. Rest and get plenty of sleep to help your body recover.\n2. Stay hydrated by drinking water, clear broths, or warm herbal teas.\n3. Use over-the-counter cold medications for symptom relief, such as decongestants or throat lozenges.\n4. Gargle with warm saltwater to soothe a sore throat.\n5. Use a humidifier to add moisture to the air, which can help ease congestion.\n6. If your symptoms worsen or persist for an extended period, consult a healthcare professional."
+  utter_poison_response_cold:
+  - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+    buttons:
+    - title: book now
+      payload: /bookcold
+  utter_Diarrhea_symptom:
+  - text: "Are you currently experiencing symptoms of diarrhea?"
+    buttons:
+      - title: "Yes"
+        payload: /deny6
+      - title: "No"
+        payload: /deny6
+  utter_Diarrhea_remedies:
+  - text: "If you have diarrhea, here are some remedies you can try:\n1. Stay hydrated by drinking clear fluids, such as water, clear broths, or oral rehydration solutions.\n2. Avoid spicy, fatty, or greasy foods that can irritate your stomach.\n3. Eat bland, easy-to-digest foods like rice, bananas, applesauce, and toast (the BRAT diet).\n4. Get plenty of rest to help your body recover.\n5. If diarrhea is severe, persistent, or accompanied by other concerning symptoms, consult a healthcare professional."
+  utter_poison_response_Diarrhea:
+  - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+    buttons:
+    - title: book now
+      payload: /bookdiarr
+  utter_sorethroat_symptom:
+  - text: "Are you currently experiencing a sore throat?"
+    buttons:
+      - title: "Yes"
+        payload: /deny7
+      - title: "No"
+        payload: /deny7
+  utter_sorethroat_remedies:
+  - text: "If you have a sore throat, here are some remedies you can try:\n1. Gargle with warm saltwater to soothe the throat.\n2. Stay hydrated by drinking plenty of fluids."
+  utter_poison_response_sorethroat:
+  - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+    buttons:
+    - title: book now
+      payload: /bookthroat
+  utter_earpain_symptom:
+  - text: "Are you currently experiencing symptoms of ear pain?"
+    buttons:
+      - title: "Yes"
+        payload: /deny8
+      - title: "No"
+        payload: /deny8
+  utter_earpain_remedies:
+  - text: "If you have ear pain, here are some remedies you can try:\n1. Rest and avoid putting any objects into your ear, including cotton swabs.\n2. Apply a warm compress to the outside of the ear for comfort.\n3. Over-the-counter pain relievers, such as ibuprofen or acetaminophen, can help reduce pain and inflammation when used as directed.\n4. If you suspect an ear infection, consult a healthcare professional for appropriate treatment, which may include antibiotics.\n5. If the ear pain is severe, persistent, or accompanied by other concerning symptoms, seek medical attention promptly."
+  utter_poison_response_earpainn:
+  - text: "I'm not a doctor, but if your condition worsens, please seek medical advice."
+    buttons:
+    - title: book now
+      payload: /bookear
+session_expiration_time: 60
+carry_over_slots_to_new_session: true

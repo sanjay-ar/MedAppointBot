@@ -1,0 +1,208 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - see you
+- intent: affirm
+  examples: |
+    - yes
+    - s
+    - ok
+- intent: deny1
+  examples: |
+    - deny1
+    - never
+    - n
+- intent: deny2
+  examples: |
+    - deny2
+    - never
+    - n
+- intent: deny3
+  examples: |
+    - deny3
+    - never
+    - n
+- intent: deny4
+  examples: |
+    - deny4
+    - never
+    - n
+- intent: deny5
+  examples: |
+    - deny5
+    - never
+    - n
+- intent: deny6
+  examples: |
+    - deny6
+    - never
+    - n
+- intent: deny7
+  examples: |
+    - deny7
+    - never
+    - n
+- intent: deny8
+  examples: |
+    - deny8
+    - never
+    - n
+- intent: stomach_symptom
+  examples: |
+    - stomachache
+    - stomachpain
+    - pain in stomach
+    - stomach ache
+    - stomach
+    - i have stomach pain
+    - i have mild stomach ache
+    - stomach pain for past 2 days
+    - stomachache
+    - upper stomach pain 
+    - stomachpain for 2days
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: heart_burn_symptom
+  examples: |
+    - heart pain
+    - discomfort from heat
+    - overheating
+    - heat exhaustion
+- intent: rash_symptom
+  examples: |
+    - rash
+    - skin irritation
+    - red spots on skin
+    - itchy skin
+- intent: book
+  examples: |
+    - b
+    - book
+    - booking
+    - book now
+- intent: fever_symptom
+  examples: |
+    - fever
+    - viral fever
+    - high fever
+- intent: cold_symptom
+  examples: |
+    - cold
+    - cough
+    - high cold
+- intent: Diarrhea_symptom
+  examples: |
+    - lose motion
+    - diarrhea
+    - losetools
+- intent: sorethroat_symptom
+  examples: |
+    - sore throat
+    - throat pain
+    - sore
+- intent: earpain_symptom
+  examples: |
+    - earpain
+    - ear pain
+    - ear
+- intent: bookstmch
+  examples: |
+    - bookstmch
+    - books
+    - bookstmch
+- intent: bookheart
+  examples: |
+    - bookheart
+    - booksh
+    - bookshea
+- intent: bookrash
+  examples: |
+    - bookrash
+    - bookrs
+    - booksrashes
+- intent: bookfever
+  examples: |
+    - bookfever
+    - bookfev
+    - bookviral
+- intent: bookcold
+  examples: |
+    - bookcold
+    - bookcolder
+    - bookhighcold
+- intent: bookdiarr
+  examples: |
+    - bookdiarr
+    - bookdiarrs
+    - bookdiarre
+- intent: bookthroat
+  examples: |
+    - bookthroat
+    - bookthro
+    - booksthr
+- intent: bookear
+  examples: |
+    - bookear
+    - bookears
+    - booksearg
+- intent: day1
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day1
+- intent: day2
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day2
+- intent: day3
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day3
+- intent: day4
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day4
+- intent: day5
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day5
+- intent: day6
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day6
+- intent: day7
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day7
+- intent: day8
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - day8
