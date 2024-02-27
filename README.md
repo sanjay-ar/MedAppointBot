@@ -9,7 +9,9 @@ Built with Python, Flask, and NLTK library for natural language processing.
 
 ## Screenshots and Demo
 
-![Placeholder Image](https://via.placeholder.com/600x400)
+<div align="center">
+  <img alt="Demo" src="./rasa.gif" />
+</div>
 
 ### [Click here to view Live Demo](#) (Replace '#' with your demo link)
 
