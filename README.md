@@ -1,6 +1,3 @@
-Sure, I can provide you with a template similar to the one you provided for your project about an imaginary "ChatBot Response Generator" project. Here's how you might structure it:
-
----
 
 # ChatBot Response Generator
 
