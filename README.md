@@ -13,8 +13,6 @@ Built with Python, Flask, and NLTK library for natural language processing.
   <img alt="Demo" src="./rasa.gif" />
 </div>
 
-### [Click here to view Live Demo](#) (Replace '#' with your demo link)
-
 ## Problems and Thought Process
 
 During the development process, several challenges were encountered. One significant issue was integrating the NLTK library for natural language processing, which required careful configuration and handling of text data.
