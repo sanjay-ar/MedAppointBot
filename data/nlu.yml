@@ -1,0 +1,120 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - see you
+    - good night
+    - goodbye
+    - have a nice day
+    - exit
+
+- intent: affirm
+  examples: |
+    - yes
+    - s
+    - ok
+    - okay
+    - indeed
+    - of course
+    - yaa
+    - yeah
+    - y
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - n
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+
+- intent: day
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - more
+    - l
+    - m
+
+- intent: head_symptom
+  examples: |
+    - headache
+    - pain in head
+    - head ache
+    - head
+    - h
+
+- intent: head_whole
+  examples: |
+    - whole
+    - w
+    - hole
+
+- intent: head_sides
+  examples: |
+    - sides
+    - side
+    - s
+
+- intent: head_crown
+  examples: |
+    - crown
+    - crowns
+    - c
+
+- intent: head_eyes
+  examples: |
+    - eyes
+    - eye
+    - e
+
+- intent: flu_symptom
+  examples: |
+    - flu
+    - cough
+    - cold
+    - fever
+    - f
+    - runny rose
+    - vomitting
+    - body ache
+
+- intent: vision_symptom
+  examples: |
+    - vision
+    - v
+- intent: stomach_symptom
+  examples: |
+    - stomachache
+    - pain in stomach
+    - stomach ache
+    - stomach
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

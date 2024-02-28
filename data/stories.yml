@@ -1,0 +1,189 @@
+version: "2.0"
+
+stories:
+
+- story: user greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: user bye
+  steps:
+    - action: utter_goodbye
+
+- story: head main
+  steps:
+    - intent: head_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_head_stomach_symptom
+
+- story: head stomach ache
+  steps:
+    - action: utter_head_stomach_symptom
+    - intent: affirm
+    - action: utter_head_stomach_response
+    - action: utter_did_that_help 
+
+- story: headache area
+  steps:
+    - action: utter_head_stomach_symptom
+    - intent: deny
+    - action: utter_head_symptom
+
+- story: headache whole
+  steps:
+    - intent: head_whole
+    - action: utter_head_whole_response
+    - action: utter_did_that_help 
+
+- story: headache side
+  steps:
+    - intent: head_sides
+    - action: utter_head_sides_response
+    - action: utter_did_that_help
+
+- story: headache crown
+  steps:
+    - intent: head_crown
+    - action: utter_head_crown_response
+    - action: utter_did_that_help
+
+- story: headache eyes
+  steps:
+    - intent: head_eyes
+    - action: utter_head_eyes_response
+    - action: utter_did_that_help
+
+- story: flu
+  steps:
+    - intent: flu_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_flu_response
+    - action: utter_did_that_help
+
+- story: dry vision
+  steps:
+    - intent: vision_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_vision_types
+    - intent: affirm
+    - action: utter_dry_eyes_response
+    - action: utter_did_that_help
+
+- story: allergy vision
+  steps:
+    - intent: vision_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_vision_types
+    - intent: deny
+    - action: utter_allergy_eyes_response
+    - action: utter_did_that_help
+
+- story: gas stomach
+  steps:
+    - intent: stomach_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_stomach_types
+    - intent: affirm
+    - action: utter_gas_response
+    - action: utter_did_that_help
+
+- story: poison stomach
+  steps:
+    - intent: stomach_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_stomach_types
+    - intent: deny
+    - action: utter_poison_response
+    - action: utter_did_that_help
+
+- story: back pain
+  steps:
+    - intent: back_pain_symptom
+    - action: utter_back_pain_response
+
+
+- story: fever
+  steps:
+    - intent: fever_symptom
+    - action: utter_fever_response
+
+- story: cough
+  steps:
+    - intent: cough_symptom
+    - action: utter_cough_response
+
+- story: sore throat
+  steps:
+    - intent: sore_throat_symptom
+    - action: utter_sore_throat_response
+
+- story: fatigue
+  steps:
+    - intent: fatigue_symptom
+    - action: utter_fatigue_response
+
+- story: skin rash
+  steps:
+    - intent: skin_rash_symptom
+    - action: utter_skin_rash_response
+- story: anxiety
+  steps:
+    - intent: anxiety_symptom
+    - action: utter_anxiety_response
+
+- story: depression
+  steps:
+    - intent: depression_symptom
+    - action: utter_depression_response
+
+- story: allergies
+  steps:
+    - intent: allergy_symptom
+    - action: utter_allergy_response
+
+- story: hypertension
+  steps:
+    - intent: hypertension_symptom
+    - action: utter_hypertension_response
+
+- story: joint pain
+  steps:
+    - intent: joint_pain_symptom
+    - action: utter_joint_pain_response
+
+- story: insomnia
+  steps:
+    - intent: insomnia_symptom
+    - action: utter_insomnia_response
+
+- story: shortness of breath
+  steps:
+    - intent: shortness_of_breath_symptom
+    - action: utter_shortness_of_breath_response
+
+- story: nausea
+  steps:
+    - intent: nausea_symptom
+    - action: utter_nausea_response
+
+- story: diarrhea
+  steps:
+    - intent: diarrhea_symptom
+    - action: utter_diarrhea_response
+
+- story: migraine
+  steps:
+    - intent: migraine_symptom
+    - action: utter_migraine_response
+
+- story: hearing loss
+  steps:
+    - intent: hearing_loss_symptom
+    - action: utter_hearing_loss_response
