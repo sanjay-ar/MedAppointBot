@@ -52,18 +52,9 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/new-feature`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 - Thanks to [Rasa](https://rasa.com/) for providing the framework for building conversational AI chatbots.
 
----
 
-Feel free to customize this README file further to suit your project's specific details and requirements. If you have any questions or need assistance, please let me know!
-
----
-
-Feel free to adapt this template to fit the specifics of your project. If you have any questions or need further assistance, please let me know!
