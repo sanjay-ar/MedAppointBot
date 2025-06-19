@@ -51,10 +51,15 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and commit them (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/new-feature`).
 5. Create a new Pull Request.
+---
 
+### 🚀 Maintained by [Sanjay A R](https://github.com/sanjay-ar)
 
-## Acknowledgements
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square&logo=vercel)](https://portfolio-ar.vercel.app/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sanjay%20A%20R-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sanjay-ar/)  
+[![GitHub](https://img.shields.io/badge/GitHub-sanjay--ar-black?style=flat-square&logo=github)](https://github.com/sanjay-ar)
 
-- Thanks to [Rasa](https://rasa.com/) for providing the framework for building conversational AI chatbots.
+> 💡 *Like this project? Leave a ⭐ and connect with me!*
+
 
 
